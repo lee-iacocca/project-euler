@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="euler.test.P1_Multiples_of_3_or_5_Test">
+      <class name="euler.test.P2_Even_Fibonacci_numbers_Test">
         <methods>
+          <include name="test_4Million"/>
           <include name="beforeClass"/>
-          <include name="test_10_v2"/>
         </methods>
-      </class> <!-- euler.test.P1_Multiples_of_3_or_5_Test -->
+      </class> <!-- euler.test.P2_Even_Fibonacci_numbers_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
