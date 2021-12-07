@@ -1,4 +1,4 @@
-package euler.test;
+package euler;
 
 import org.testng.annotations.Test;
 
